@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avid Thinkers | Home</title>
+    <link rel="stylesheet" href="styling.css">
+
+</head>
+<body id="homepage">
+
+    <header>
+        <h1>
+            Avid Thinkers
+        </h1>
+        <nav>
+            <a id="home" href="home.html"> Home</a>
+            <a id="contact" href="contact.html"> Contact us</a>
+            <a id="about" href="about.html"> About us</a>
+        </nav>
+    </header>
+    
+    <main id="homemain">
+        <form action="next.html">
+            <h1>
+                Personal details:
+            </h1>  
+            <p>Required fields are followed by *</p>
+            <p>First Name: * <input type="text" name="fname" required></p>
+            <p>Last Name: * <input type="text" name="lname"required></p>
+            <fieldset id="gender">
+            <legend>
+                Gender: *
+            </legend>
+            <p>
+                Male: <input type="radio" name="gender" id="Male" required><br>
+                Female: <input type="radio" name="gender" id="Female"required><br>
+                Other: <input type="radio" name="gender" id="Other" required>
+            </p>
+            </fieldset>
+            <p>
+                Address: *
+                <textarea name="Address"  required></textarea>
+            </p>
+            <p>
+                Email: *
+                <input type="email" name="mail" id="email" required>
+            </p>
+            <p>
+                Mobile no:
+                <input type="tel" name="mobile number" id="">
+            </p>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+        <p>
+
+
+
+        </p>
+    </main>
+</body>
+</html>
